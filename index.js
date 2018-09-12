@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Flexin = undefined;
+exports.RFPages = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -19,16 +19,16 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Flexin = exports.Flexin = function (_Component) {
-  _inherits(Flexin, _Component);
+var RFPages = exports.RFPages = function (_Component) {
+  _inherits(RFPages, _Component);
 
-  function Flexin() {
-    _classCallCheck(this, Flexin);
+  function RFPages() {
+    _classCallCheck(this, RFPages);
 
-    return _possibleConstructorReturn(this, (Flexin.__proto__ || Object.getPrototypeOf(Flexin)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (RFPages.__proto__ || Object.getPrototypeOf(RFPages)).apply(this, arguments));
   }
 
-  _createClass(Flexin, [{
+  _createClass(RFPages, [{
     key: 'createDiv',
     value: function createDiv(options) {
       var className = options.className,
@@ -83,5 +83,5 @@ var Flexin = exports.Flexin = function (_Component) {
     }
   }]);
 
-  return Flexin;
+  return RFPages;
 }(_react.Component);
