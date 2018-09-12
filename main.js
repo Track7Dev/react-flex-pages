@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-export class Flexin extends Component {
+export class RFPages extends Component {
   createDiv(options){
     const {className, backgroundColor, content, ratio, align, scroll} = options;
     const height = ratio[0];
