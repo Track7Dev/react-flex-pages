@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+// ON HOLD BECAUSE OF HURRICANE FLORENCE
 export class RFPages extends Component {
   createDiv(options){
     const {className, backgroundColor, content, ratio, align, scroll} = options;
